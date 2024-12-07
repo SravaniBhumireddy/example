@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example</title>
+        <link rel="stylesheet" href="../static/css/style.css">
+    </head>
+    <body>
+        <div style="clear:both;"></div>
+        <div class="register-div">
+            <h1>please register 👇</h1>
+            <form action="/reg_data" method="post">
+            <input type="text" placeholder="Enter name" name="U_name">
+            <input type="number" placeholder="Enter phone" name="num">
+            <input type="email" placeholder="Enter Mail"  name="U_mail">
+            <input type="password" placeholder="Enter Password" name="U_pwd"|>
+            <button id="reg-ijh" type="submit">Register</button>
+            </form>
+        </div>
+        <div class="login-div">
+            <h1>we have account</h1>
+            <form action="/log_data" method="post">
+                <input type="email" placeholder="Enter mail" name="U_mail">
+                <input type="password" placeholder="Enter Password" name="U_pwd">
+                <button id="log-btn" type="submit">Login</button>
+            </form>
+        </div>
+    </body>
+</html>

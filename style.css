@@ -1,0 +1,55 @@
+.register-div{
+    float: left;
+    width: 45%;
+    margin: 0% 0% 5% 0%;
+    border: 2px solid black;
+    color:rgb(32, 126, 209);
+}
+.register-div h1{
+    text-align: center;
+    font-size: 30px;
+}
+.register-div input{
+    float:left;
+    width: 90%;
+    margin: 0% 0% 5% 0%;
+    background-color: transparent;
+    font-weight: 700;
+}
+#reg-ijh{
+    float: left;
+    width: 45%;
+    margin: 0% 0% 5% 20%;
+    text-align: center;
+    color: aqua;
+    background-color: transparent;
+    font-weight: 700;
+}
+.login-div{
+    float: right;
+    width: 45%;
+    margin:5% 0% 15% 0%;
+    border: 2px solid black;
+    background-color: black;
+    color: beige;
+}
+.login-div h1{
+    font-size: 30px;
+    text-align: center;
+}
+.login-div input{
+    float: left;
+    width: 45%;
+    margin:0% 50% 5% 5%;
+    background-color: transparent;
+    color: bisque;
+}
+#log-btn{
+    float: left;
+    width: 45%;
+    margin: 0% 0% 5% 20%;
+    background-color: transparent;
+    color: beige;
+    text-align: center;
+    font-weight: 700;
+}
